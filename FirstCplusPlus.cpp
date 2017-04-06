@@ -1,10 +1,10 @@
-Xinclue <iostream>
+#include <iostream>
 
 using namespace std;
 
-it main()
+int main()
 {
-    cout << "My first C++ program." << end1;
+    cout << "My first C++ program." << endl;
     
     return 0;
 }
