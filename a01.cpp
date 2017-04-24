@@ -8,18 +8,18 @@
 using namespace std;
 
 //declaration for degrees Fahrenheit
-int degrees_F;
+int degrees_f;
 
 int main() {
-
+    
     cout << "Enter temperature in Fahrenheit:";
     
     //assign user input to int degrees_F
-    cin >> degrees_F;
+    cin >> degrees_f;
     
     //output required string that includes the formula for converting Fahrenheit to Celcius cast as a double
-    cout << "The temperature " << degrees_F << " Fahrenheit is equivalent to " <<
-    static_cast<double>(degrees_F - 32) * 5 / 9 << " Celcius.";
+    cout << "The temperature " << degrees_f << " Fahrenheit is equivalent to " <<
+    static_cast<double>(degrees_f - 32) * 5 / 9 << " Celsius.";
     
     return 0;
 }
